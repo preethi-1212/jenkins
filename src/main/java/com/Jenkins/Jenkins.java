@@ -10,4 +10,10 @@ public String get()
 {
 	return "Welcome";
 }
+
+@GetMapping (value="getint")
+public int getint()
+{
+	return 10;
+}
 }
